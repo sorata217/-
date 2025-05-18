@@ -1,0 +1,51 @@
+.add{
+    display: flex;
+    align-items: flex-start;
+}
+
+.test{
+    height: 500px;
+    width: auto;
+    border: 1px solid black;
+
+    display: flex;            /* ← 中央揃えのため追加 */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   /* ボタンも下に表示するため */
+    text-align: center;
+}
+
+.kuhaku{
+    height: 400px;
+    width: auto;
+}
+
+button{
+    background-color: aqua;
+    color: black;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+
+.text{
+    font-size: 20px;
+    width: 150px;
+    padding: 5px ;
+}
+
+.memo{
+    border: 1px solid black;
+    height: 300px;
+    width: 580px;
+    overflow-y: auto;         /* ← 縦スクロールできるように */
+    font-size: 16px;          /* ← 文字サイズ小さめに（調整OK） */
+    line-height: 0.5;         /* ← 行間を狭く */
+    padding: 5px;
+}
